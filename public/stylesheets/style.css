@@ -6,3 +6,44 @@ body {
 a {
   color: #00B7FF;
 }
+.container{
+  display: box;
+  display: flex;
+  box-align: center;
+  align-items: center;
+  box-pack: center;
+  justify-content: center;
+}
+.title-container{
+  display: flex;
+}
+.image{
+  position: relative;
+
+}
+
+h1{
+  margin-top: 5%;
+   font-size: 35px;
+   align-self: center;
+   color: white;
+   font-weight: bold;
+}
+.title-container>button{
+  margin-top: 75%;
+  background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #a7aba8;
+	display:inline-block;
+	cursor:pointer;
+	color:#030303;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #444544;
+}
+
+.title{
+  position: absolute; 
+ }
